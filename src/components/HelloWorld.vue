@@ -27,6 +27,11 @@ export default {
   },
   created() {
     this.currImg = this.imgList[this.listIdx]
+    // 预加载图片
+    this.imgList.forEach(item => {
+      let img = new Image()
+      img.src = item
+    });
   },
   watch: {
     listIdx() {
