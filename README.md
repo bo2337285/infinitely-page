@@ -1,6 +1,5 @@
-# pan-page
-
-> A Vue.js project
+## infinitely-page
+> 两个无限复读的靓仔~
 
 ## Build Setup
 
@@ -18,4 +17,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
